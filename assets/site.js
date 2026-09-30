@@ -13,6 +13,7 @@
     var label = "doc:" + slug;
     var list = box.querySelector(".comment-list");
     var form = box.querySelector("form");
+    var approve = box.querySelector("[data-approve]");
     function line(text) {
       var p = document.createElement("p");
       p.className = "fine";
@@ -34,7 +35,8 @@
       }
       rows.forEach(function (issue) {
         var item = document.createElement("article");
-        item.className = "comment";
+        var text = issue.body || "";
+        item.className = text.indexOf("I approve this document.") !== -1 ? "comment approval" : "comment";
         var who = document.createElement("div");
         who.className = "who";
         who.textContent = issue.user && issue.user.login ? issue.user.login : "Member";
@@ -42,7 +44,7 @@
         when.className = "when";
         when.textContent = (issue.created_at || "").slice(0, 10);
         var body = document.createElement("p");
-        body.textContent = issue.body || "";
+        body.textContent = text;
         item.appendChild(who);
         item.appendChild(when);
         item.appendChild(body);
@@ -69,5 +71,15 @@
         + "&body=" + encodeURIComponent(body);
       window.location.href = href;
     });
+    if (approve) {
+      approve.addEventListener("click", function () {
+        var name = form.name.value.trim();
+        var body = "Name: " + (name || "Not given") + "\n\nI approve this document.\n\nPosted from the document page.";
+        var href = "https://github.com/" + REPO + "/issues/new?labels=" + encodeURIComponent(label)
+          + "&title=" + encodeURIComponent("I approve " + title)
+          + "&body=" + encodeURIComponent(body);
+        window.location.href = href;
+      });
+    }
   });
 })();

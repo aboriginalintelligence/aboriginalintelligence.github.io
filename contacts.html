@@ -3,35 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contacts | Governance Drafts</title>
-  <meta name="description" content="Public office contacts. No personal contacts.">
-  <meta property="og:title" content="Contacts | Governance Drafts">
-  <meta property="og:description" content="Public office contacts. No personal contacts.">
-  <meta name="theme-color" content="#0f2a26">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/site.css">
-  <link rel="icon" href="assets/favicon.svg">
+  <title>Contacts</title>
+  <meta name="description" content="Governance drafts for member review.">
+  <link rel="stylesheet" href="./assets/site.css">
+  <link rel="icon" href="./assets/favicon.svg">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to the text</a>
   <header class="mast">
-    <div class="mast-inner">
-      <div class="topbar">
-        <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e0a8"/><stop offset=".55" stop-color="#5f8bff"/><stop offset="1" stop-color="#b06be6"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="#0f2a26"/><path d="M4 21c5-9 9-12 12-12s7 3 12 12" fill="none" stroke="url(#lg)" stroke-width="3" stroke-linecap="round"/><path d="M8 25c3-5 5-7 8-7s5 2 8 7" fill="none" stroke="url(#lg)" stroke-width="2.4" stroke-linecap="round" opacity=".75"/></svg><span>Governance Drafts</span></a>
-        <nav aria-label="Main"><a href="index.html">Drafts</a><a href="adoption.html">How it becomes law</a><a href="contacts.html" aria-current="page">Contacts</a></nav>
-      </div>
-      <div class="status"><span>Working drafts</span><span>Not adopted law</span><span>Not legal advice</span><span>Updated 29 September 2026</span></div>
-      <div class="hero"><h1>Public offices</h1><p>These are offices, not people. This site has no contact person and collects no information.</p></div>
-    </div>
+    <p class="site-title"><a href="./index.html">Governance drafts</a></p>
+    <p class="dateline">29 September 2026</p>
+    <nav>
+      <a href="./index.html">Drafts</a>
+      <a href="./contacts.html">Contacts</a>
+    </nav>
   </header>
-  <main id="main" class="wrap">
-    <div class="contact-grid"><div class="card contact-card"><h3>Band office</h3><dl><dt>Phone</dt><dd>780-334-2293</dd><dt>Email</dt><dd>fmfn468@fmfn468.com</dd><dt>Mail</dt><dd>P.O. Box 6130, Fort McMurray, AB T9H 4W1</dd></dl></div><div class="card contact-card"><h3>Urban office</h3><dl><dt>Phone</dt><dd>587-401-9040, extension 104</dd><dt>Email</dt><dd>urbancoordinator@fmfn468.com</dd><dt>Where</dt><dd>Edmonton</dd></dl></div><div class="card contact-card"><h3>Athabasca Tribal Council</h3><dl><dt>Phone</dt><dd>780-791-6538</dd><dt>Email</dt><dd>info@atcfn.ca</dd></dl></div><div class="card contact-card"><h3>Treaty 8 First Nations of Alberta</h3><dl><dt>Phone</dt><dd>780-444-9366</dd><dt>Mail</dt><dd>P.O. Box 25579, RPO West Drive Thru, Edmonton, AB T5T 7E7</dd><dt>Web</dt><dd>treaty8.org</dd></dl></div><div class="card contact-card"><h3>Indigenous Services Canada, public enquiries</h3><dl><dt>Phone</dt><dd>1-800-567-9604</dd><dt>Web</dt><dd>sac-isc.gc.ca</dd></dl></div><div class="card contact-card"><h3>Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada, allegations and complaints</h3><dl><dt>Phone</dt><dd>1-855-504-6760</dd><dt>Email</dt><dd>cnap-nacc@rcaanc-cirnac.gc.ca</dd></dl></div></div>
-    <p class="fine" style="margin-top:18px">Numbers change. Check the office's own website before you rely on a number.</p>
+  <main class="sheet page">
+
+    <p class="kicker">Contacts</p>
+    <h1>Public offices</h1>
+    <p>These lines are offices. This page does not name a person.</p>
+    <div class="contacts">
+    <table>
+      <thead><tr><th>Office</th><th>Phone</th><th>Email</th><th>Where</th></tr></thead>
+      <tbody>
+        <tr><td class="office">Band office</td><td class="phone">780-334-2293</td><td class="email">fmfn468@fmfn468.com</td><td class="where">P.O. Box 6130, Station Main, Fort McMurray, AB T9H 4W1</td></tr><tr><td class="office">Urban office</td><td class="phone">587-401-9040 ext. 104</td><td class="email">urbancoordinator@fmfn468.com</td><td class="where">Edmonton</td></tr><tr><td class="office">Athabasca Tribal Council</td><td class="phone">780-791-6538</td><td class="email">info@atcfn.ca</td><td class="where empty"></td></tr><tr><td class="office">Treaty 8 office</td><td class="phone empty"></td><td class="email empty"></td><td class="where">treaty8.org</td></tr><tr><td class="office">Indigenous Services Canada</td><td class="phone">1-800-567-9604</td><td class="email empty"></td><td class="where empty"></td></tr><tr><td class="office">CIRNAC complaints</td><td class="phone">1-855-504-6760</td><td class="email">cnap-nacc@rcaanc-cirnac.gc.ca</td><td class="where empty"></td></tr>
+      </tbody>
+    </table>
+    </div>
+
   </main>
-  <footer class="site-footer"><div class="inner">
-    <span>Working drafts for member review. Not adopted law. Not legal advice. A lawyer should review any text before a vote.</span>
-    <button class="theme-toggle" type="button">Light or dark</button>
-  </div></footer>
-  <script src="assets/site.js"></script>
+  <footer class="site-footer">29 September 2026</footer>
+  <script src="./assets/site.js"></script>
 </body>
 </html>

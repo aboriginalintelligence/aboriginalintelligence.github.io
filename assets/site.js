@@ -27,31 +27,61 @@
       return res.json();
     }).then(function (issues) {
       var rows = (issues || []).filter(function (issue) { return !issue.pull_request; });
-      rows.sort(function (a, b) { return a.created_at < b.created_at ? -1 : 1; });
+      function isApproval(issue) {
+        var text = issue.body || "";
+        return text.indexOf("I approve this document.") !== -1 && text.length < 240;
+      }
+      function score(issue) {
+        var replies = issue.comments || 0;
+        var reactions = issue.reactions && issue.reactions.total_count ? issue.reactions.total_count : 0;
+        return replies * 10 + reactions;
+      }
+      var approvals = rows.filter(isApproval);
+      var topics = rows.filter(function (issue) { return !isApproval(issue); });
+      topics.sort(function (a, b) {
+        var diff = score(b) - score(a);
+        if (diff) return diff;
+        return a.created_at < b.created_at ? 1 : -1;
+      });
+      var count = box.querySelector(".approval-count");
+      if (count) {
+        count.textContent = approvals.length
+          ? approvals.length + (approvals.length === 1 ? " person has approved this instrument." : " people have approved this instrument.")
+          : "No approvals yet.";
+      }
       list.textContent = "";
-      if (!rows.length) {
-        list.appendChild(line("No comments yet."));
+      if (!topics.length) {
+        list.appendChild(line("No topics yet. Pick a suggestion, or write the first one."));
         return;
       }
-      rows.forEach(function (issue) {
-        var item = document.createElement("article");
+      topics.forEach(function (issue) {
         var text = issue.body || "";
-        item.className = text.indexOf("I approve this document.") !== -1 ? "comment approval" : "comment";
+        var lines = text.split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
+        var kept = lines.filter(function (s) {
+          return s.indexOf("Name:") !== 0 && s.indexOf("Posted from") !== 0;
+        });
+        var item = document.createElement("article");
+        item.className = "comment";
         var who = document.createElement("div");
         who.className = "who";
         who.textContent = issue.user && issue.user.login ? issue.user.login : "Member";
         var when = document.createElement("div");
         when.className = "when";
-        when.textContent = (issue.created_at || "").slice(0, 10);
+        var replies = issue.comments || 0;
+        when.textContent = (issue.created_at || "").slice(0, 10) + ". " + replies + (replies === 1 ? " reply." : " replies.");
+        var heading = document.createElement("div");
+        heading.className = "topic-title";
+        heading.textContent = kept[0] || issue.title || "Comment";
         var body = document.createElement("p");
-        body.textContent = text;
+        body.textContent = kept.join("\n");
         item.appendChild(who);
         item.appendChild(when);
+        item.appendChild(heading);
         item.appendChild(body);
         if (issue.html_url) {
           var more = document.createElement("a");
           more.href = issue.html_url;
-          more.textContent = "Open this comment";
+          more.textContent = "Open this topic";
           item.appendChild(more);
         }
         list.appendChild(item);
@@ -65,7 +95,7 @@
       var name = form.name.value.trim();
       var comment = form.comment.value.trim();
       if (comment.length < 2) return;
-      var body = "Name: " + (name || "Not given") + "\n\n" + comment + "\n\nPosted from the document page.";
+      var body = "Name: " + (name || "Not given") + "\n\n" + comment + "\n\nPosted from the forum.";
       var href = "https://github.com/" + REPO + "/issues/new?labels=" + encodeURIComponent(label)
         + "&title=" + encodeURIComponent("Comment on " + title)
         + "&body=" + encodeURIComponent(body);
@@ -74,12 +104,23 @@
     if (approve) {
       approve.addEventListener("click", function () {
         var name = form.name.value.trim();
-        var body = "Name: " + (name || "Not given") + "\n\nI approve this document.\n\nPosted from the document page.";
+        var body = "Name: " + (name || "Not given") + "\n\nI approve this document.\n\nPosted from the forum.";
         var href = "https://github.com/" + REPO + "/issues/new?labels=" + encodeURIComponent(label)
           + "&title=" + encodeURIComponent("I approve " + title)
           + "&body=" + encodeURIComponent(body);
         window.location.href = href;
       });
     }
+  });
+  document.querySelectorAll("[data-suggest]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var box = document.querySelector("[data-doc]");
+      if (!box) return;
+      var target = box.querySelector("form");
+      if (!target) return;
+      target.comment.value = btn.getAttribute("data-suggest") || "";
+      target.comment.focus();
+      box.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   });
 })();

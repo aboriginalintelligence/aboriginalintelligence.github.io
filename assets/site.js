@@ -46,7 +46,7 @@
       var count = box.querySelector(".approval-count");
       if (count) {
         count.textContent = approvals.length
-          ? approvals.length + (approvals.length === 1 ? " person has approved this instrument." : " people have approved this instrument.")
+          ? approvals.length + (approvals.length === 1 ? " person has approved this document." : " people have approved this document.")
           : "No approvals yet.";
       }
       list.textContent = "";
@@ -152,7 +152,7 @@
       });
       list.textContent = "";
       if (!topics.length) {
-        list.appendChild(line("No topics yet. Open an instrument and pick a suggestion."));
+        list.appendChild(line("No topics yet. Open a document and pick a suggestion."));
         return;
       }
       topics.forEach(function (issue) {
@@ -181,7 +181,7 @@
         if (slug) {
           var back = document.createElement("a");
           back.href = slug + ".html";
-          back.textContent = "Open this instrument";
+          back.textContent = "Open this document";
           item.appendChild(document.createTextNode(" "));
           item.appendChild(back);
         }
@@ -196,7 +196,7 @@
       });
     }).catch(function () {
       list.textContent = "";
-      list.appendChild(line("Topics could not be loaded. You can still open an instrument and post one."));
+      list.appendChild(line("Topics could not be loaded. You can still open a document and post one."));
     });
   });
   document.querySelectorAll("[data-suggest]").forEach(function (btn) {

@@ -184,8 +184,7 @@ tbody tr:nth-child(even) td { background: #f7faf7; }
 }
 
 .docshot-frame {
-  max-height: 380px;
-  overflow: auto;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: #fff;

@@ -2,19 +2,29 @@
 (function () {
   var REPO = "aboriginalintelligence/aboriginalintelligence.github.io";
   document.querySelectorAll(".mast nav").forEach(function (nav) {
-    if (nav.querySelector("[data-nav='action']")) return;
     var home = document.querySelector(".brand a");
     var prefix = "./";
     if (home && home.getAttribute("href")) {
       prefix = home.getAttribute("href").replace(/index\.html$/, "");
     }
-    var a = document.createElement("a");
-    a.setAttribute("data-nav", "action");
-    a.href = prefix + "action-plan.html";
-    a.textContent = "Action plan";
-    var first = nav.firstElementChild;
-    if (first && first.nextSibling) nav.insertBefore(a, first.nextSibling);
-    else nav.appendChild(a);
+    if (!nav.querySelector("[data-nav='action']")) {
+      var a = document.createElement("a");
+      a.setAttribute("data-nav", "action");
+      a.href = prefix + "action-plan.html";
+      a.textContent = "Action plan";
+      var first = nav.firstElementChild;
+      if (first && first.nextSibling) nav.insertBefore(a, first.nextSibling);
+      else nav.appendChild(a);
+    }
+    if (!nav.querySelector("[data-nav='clerk']")) {
+      var clerk = document.createElement("a");
+      clerk.setAttribute("data-nav", "clerk");
+      clerk.href = prefix + "clerk.html";
+      clerk.textContent = "Band Clerk";
+      var action = nav.querySelector("[data-nav='action']");
+      if (action && action.nextSibling) nav.insertBefore(clerk, action.nextSibling);
+      else nav.appendChild(clerk);
+    }
   });
   document.querySelectorAll("button.copy[data-copy]").forEach(function (btn) {
     btn.addEventListener("click", function () {

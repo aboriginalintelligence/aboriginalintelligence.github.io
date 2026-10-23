@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Band Clerk</title>
+  <meta name="description" content="Ask Band Clerk about reserve law, band money, elections, and council process.">
+  <meta property="og:title" content="Band Clerk">
+  <meta property="og:description" content="Ask how the money and the rules work.">
+  <meta property="og:image" content="https://aboriginalintelligence.github.io/assets/band-clerk-fb.png">
+  <meta property="og:url" content="https://aboriginalintelligence.github.io/clerk.html">
+  <link rel="stylesheet" href="./assets/site.css">
+  <link rel="icon" href="./assets/favicon.svg">
+</head>
+<body>
+  <header class="mast">
+    <div class="mast-inner">
+      <p class="brand"><a href="./index.html">Governance documents</a>
+        <small>22 October 2026</small>
+      </p>
+      <nav>
+        <a href="./index.html">Documents</a>
+        <a href="./action-plan.html" data-nav="action">Action plan</a>
+        <a href="./clerk.html" data-nav="clerk">Band Clerk</a>
+        <a href="./forum/index.html">Forum</a>
+        <a href="./contacts.html">Contacts</a>
+      </nav>
+    </div>
+  </header>
+  <main class="sheet page">
+
+    <section class="card tint">
+      <p class="eyebrow">Member desk</p>
+      <h1>Band Clerk</h1>
+      <p>Ask how the money and the rules work. Answers come from public Canadian statutes and from the drafts on this site. Band Clerk is not a lawyer, not a band office, and not a place to name people.</p>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">Ask</p>
+      <div id="clerk-log" class="clerk-log" aria-live="polite"></div>
+      <form id="clerk-form" class="clerk-form">
+        <label for="clerk-q">Your question</label>
+        <textarea id="clerk-q" name="q" rows="3" required placeholder="Example. Can a member get the audited statements?"></textarea>
+        <div class="actions">
+          <button class="btn primary" type="submit">Ask Band Clerk</button>
+        </div>
+      </form>
+      <p class="part-label">Try one</p>
+      <div class="suggests">
+        <button type="button" data-ask="Can a member get copies of the audited financial statements?">Can a member get the audited statements?</button>
+        <button type="button" data-ask="What is a financial administration law and the FNFMB path?">What is a FAL?</button>
+        <button type="button" data-ask="What does Indian Act section 81 let council do?">What is Indian Act section 81?</button>
+        <button type="button" data-ask="Are the twenty documents on this site in force?">Are the drafts on this site the law?</button>
+        <button type="button" data-ask="How do I request records and start a public code review?">What can a member do now?</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">Limits</p>
+      <h2>What this desk will not do</h2>
+      <ul>
+        <li>It will not guess a section number.</li>
+        <li>It will not treat the drafts as adopted law.</li>
+        <li>It will not take a complaint about a named person.</li>
+        <li>It will not replace a lawyer before a vote, a membership decision, or a court step.</li>
+      </ul>
+      <p class="fine">Sources include the Indian Act, the First Nations Financial Transparency Act, the First Nations Fiscal Management Act, the First Nations Elections Act, Treaty 8, and the documents on this site. Justice consolidations in the library are current to 30 September 2026.</p>
+    </section>
+
+  </main>
+  <footer class="site-footer">22 October 2026</footer>
+  <script src="./assets/site.js"></script>
+  <script src="./assets/clerk.js"></script>
+</body>
+</html>

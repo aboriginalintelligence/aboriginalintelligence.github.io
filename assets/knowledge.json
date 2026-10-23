@@ -1,0 +1,234 @@
+[
+  {
+    "id": "clerk",
+    "title": "What Band Clerk is",
+    "tags": "bot clerk about help who you are name",
+    "text": "Band Clerk is a member desk for questions about reserve law, band money, elections, and council process. Answers come from a local library of public Canadian sources and from the draft documents on this site. Band Clerk is not a lawyer and is not a band office. It does not replace a band manager, finance officer, or legal review. If a statute and a local code disagree, the statute and the code that is actually in force control. Drafts on this site are not in force until members adopt them.",
+    "source": "This site. Band Clerk.",
+    "url": "clerk.html"
+  },
+  {
+    "id": "not-law",
+    "title": "Drafts on this site are not in force",
+    "tags": "draft in force law adopted vote official 2014",
+    "text": "The twenty numbered documents on this site are working drafts for member review. They are not official documents, not voted on, and not passed as law. Until members adopt a replacement, the 2014 Customary Election Regulations and the 2014 Council Accountability and Procedures By-law remain the local rules that are in force. Treat the drafts as a starting point for a public review, not as current law.",
+    "source": "This site. Home page and action plan.",
+    "url": "index.html"
+  },
+  {
+    "id": "indian-act",
+    "title": "Indian Act, R.S.C. 1985, c. I-5",
+    "tags": "indian act i-5 statute reserve band council minister",
+    "text": "The Indian Act is the main federal statute that still structures band government for many First Nations. The Justice consolidation used in the library is current to 30 September 2026 and last amended on 15 August 2019. It covers membership, reserves, band councils, elections under the Act, by-laws, and Indian moneys held by the Crown. Many Nations also use custom election codes, the First Nations Elections Act, or a self-government agreement instead of Indian Act elections. Quote the Act by section number. Do not guess a section.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5. Justice Laws. Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/"
+  },
+  {
+    "id": "ia-s10",
+    "title": "Indian Act section 10, membership control",
+    "tags": "membership section 10 s.10 elector majority rules",
+    "text": "Indian Act section 10(1) says a band may assume control of its own membership if it establishes membership rules in writing under that section and, after appropriate notice, a majority of the electors of the band consents. Until a band takes that step, membership is generally under the Act rather than a local code. A local membership code that is not made under section 10 does not by itself take the band out of the statutory list. Have a lawyer review any membership vote before it is treated as done.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5, s. 10(1). Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/page-2.html#h-331837"
+  },
+  {
+    "id": "ia-s74",
+    "title": "Indian Act section 74, elections under the Act",
+    "tags": "section 74 s.74 election chief councillor minister order custom",
+    "text": "Indian Act section 74(1) lets the Minister declare by order that a band council, consisting of a chief and councillors, will be selected by elections held in accordance with the Act. Section 74(2) says that unless the Minister orders otherwise, the council of a band under such an order is chosen that way. Many First Nations do not use section 74 elections. They use a custom code, the First Nations Elections Act, or another regime. If your Nation has a customary election code, that code, not section 74, is usually the local election rule.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5, s. 74. Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/"
+  },
+  {
+    "id": "ia-s81",
+    "title": "Indian Act section 81, council by-laws",
+    "tags": "section 81 s.81 bylaw by-law traffic health nuisance council powers",
+    "text": "Indian Act section 81(1) lets the council of a band make by-laws that are not inconsistent with the Act or with regulations of the Governor in Council or the Minister, for listed local purposes. Those purposes include things such as health, traffic, and nuisance on the reserve. A by-law that conflicts with the Act or with federal regulations is not valid on that point. Enforcement of band by-laws has long been weak in practice because outside agencies often do not treat them like provincial statutes. Build internal enforcement in the by-law itself: who acts, by when, and what follows a breach.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5, s. 81(1). Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/"
+  },
+  {
+    "id": "ia-s83",
+    "title": "Indian Act section 83, money by-laws",
+    "tags": "section 83 s.83 tax taxation money bylaw minister approval local revenue",
+    "text": "Indian Act section 83(1) says that, without prejudice to section 81, the council of a band may, subject to the approval of the Minister, make by-laws for listed money purposes. Those purposes include taxation for local purposes of land or interests in land in the reserve. Ministerial approval is the extra gate that section 81 by-laws do not all share. Some Nations raise local revenue under the First Nations Fiscal Management Act instead of, or in addition to, section 83. Check which regime your Nation actually uses before citing either one as the live rule.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5, s. 83(1). Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/"
+  },
+  {
+    "id": "ia-s85",
+    "title": "Indian Act section 85.1, intoxicants",
+    "tags": "section 85.1 s.85.1 intoxicants alcohol bylaw",
+    "text": "Indian Act section 85.1 is the heading for by-laws relating to intoxicants. Section 86 is publication of by-laws. If you need the exact tests and majority rules in 85.1, open the Justice consolidation and quote the subsections. Band Clerk will not invent subsection numbers for 85.1 from memory.",
+    "source": "Indian Act, R.S.C. 1985, c. I-5, ss. 85.1 and 86. Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-5/"
+  },
+  {
+    "id": "fnea",
+    "title": "First Nations Elections Act, four-year term",
+    "tags": "first nations elections act f-11.65 four year term participating schedule",
+    "text": "The First Nations Elections Act, S.C. 2014, c. 5, is the statute at R.S.C. chapter F-11.65. It applies to a First Nation that is added to its schedule. Section 3(1) lets the Minister add a First Nation to the schedule if, among other routes, council provides a resolution requesting that. Section 28(1) says the chief and councillors of a participating First Nation hold office for four years, subject to subsection (2) and section 29, commencing at the expiry of the term of those they replace. This Act does not apply just because a Nation exists. It applies if the Nation is a participating First Nation on the schedule. Custom code Nations are not automatically under this Act.",
+    "source": "First Nations Elections Act, S.C. 2014, c. 5, ss. 3(1) and 28(1). Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.65/"
+  },
+  {
+    "id": "fnfta-5",
+    "title": "FNFTA, audited statements each year",
+    "tags": "fnfta transparency financial statements audit gaap accounts",
+    "text": "The First Nations Financial Transparency Act, S.C. 2013, c. 7, section 5(1) requires a First Nation to maintain its accounts and prepare its consolidated financial statements annually in accordance with generally accepted accounting principles, with the primary sources being the handbooks of the Canadian Institute of Chartered Accountants or its successor, including the public sector accounting handbook. Section 5(2) requires those consolidated financial statements to be audited. This is a federal statute. Enforcement by the Minister is discretionary. Members can still request copies under section 7.",
+    "source": "First Nations Financial Transparency Act, S.C. 2013, c. 7, s. 5. Current to 30 September 2026. Last amended 26 September 2023.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.66/"
+  },
+  {
+    "id": "fnfta-7",
+    "title": "FNFTA, members can request copies",
+    "tags": "fnfta copies members request remuneration expenses statements section 7",
+    "text": "First Nations Financial Transparency Act section 7(1) says a First Nation must, on the request of any of its members, provide copies of its audited consolidated financial statements, the Schedule of Remuneration and Expenses, and the other documents listed in that subsection. A fee, if charged, must not exceed the cost of the service. Ask in writing. Date the request. Keep a copy. If the documents are not produced, section 10 lets a member apply to court, and section 8 still requires publication on an internet site.",
+    "source": "First Nations Financial Transparency Act, S.C. 2013, c. 7, s. 7(1). Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.66/"
+  },
+  {
+    "id": "fnfta-8",
+    "title": "FNFTA, publish within 120 days",
+    "tags": "fnfta internet publish 120 days ten years website statements",
+    "text": "First Nations Financial Transparency Act section 8(1) requires a First Nation to publish the documents in paragraphs 7(1)(a) to (d) on its internet site, or cause them to be published on an internet site, within 120 days after the end of each financial year. Section 8(2) says those documents must remain accessible to the public on an internet site for at least 10 years. Publishing online does not by itself meet the duty to give a member copies under section 7. Look for audited statements and the remuneration schedule on the Nation site and on the federal posting as well.",
+    "source": "First Nations Financial Transparency Act, S.C. 2013, c. 7, s. 8. Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.66/"
+  },
+  {
+    "id": "fnfma",
+    "title": "First Nations Fiscal Management Act",
+    "tags": "fnfma fiscal management board finance authority fal 10 year grant local revenue",
+    "text": "The First Nations Fiscal Management Act, S.C. 2005, c. 9, sets up the First Nations Tax Commission, the First Nations Financial Management Board, the First Nations Finance Authority, and the First Nations Infrastructure Institute. A Nation that wants Board certification works toward a financial administration law (FAL) that meets the Board's standards. Certification can support a 10-year grant path and borrowing through the Finance Authority. The Act is optional. A Nation is not under FNFMA tools until it opts in and meets the standards. The Justice consolidation in the library is current to 30 September 2026 and last amended 24 April 2026.",
+    "source": "First Nations Fiscal Management Act, S.C. 2005, c. 9. Current to 30 September 2026.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.67/"
+  },
+  {
+    "id": "fal",
+    "title": "Financial administration law (FAL)",
+    "tags": "fal financial administration law fnfmb board certification standards audit committee",
+    "text": "A financial administration law is a First Nation law that sets how money is planned, spent, recorded, and reported. Under the First Nations Fiscal Management Act path, the First Nations Financial Management Board reviews the FAL against published standards. A FAL that is only a copy of a template, with no real finance and audit committee, no spending limits, and no member reporting, will not change practice. A working FAL names who can spend, at what dollar threshold, who must sign, what council must put in a resolution, and when members see the audit. Live FNFMB pages were often blocked in 2026. Wayback copies from May 2024 of fnfmb.com describe certification, the FAL, the 10-year grant, and standards.",
+    "source": "First Nations Fiscal Management Act path. FNFMB materials. Wayback fnfmb.com, May 2024.",
+    "url": "https://fnfmb.com/en/services/certify-first-nations/financial-administration-law-fal"
+  },
+  {
+    "id": "charter-35",
+    "title": "Section 35 and the Charter",
+    "tags": "section 35 constitution 1982 charter rights aboriginal treaty",
+    "text": "Section 35 of the Constitution Act, 1982 recognizes and affirms the existing Aboriginal and treaty rights of the Aboriginal peoples of Canada. The Canadian Charter of Rights and Freedoms also applies. Band by-laws and codes cannot legalize something the Criminal Code forbids, and they cannot wipe out section 35 rights. Treaty 8 is a treaty. It is not rewritten by a local code. Court cases such as Guerin, Sparrow, Delgamuukw, Corbiere, Haida, and Tsilhqot'in are the usual starting points for Aboriginal rights, title, and consultation. Band Clerk will not invent case citations. Read the reasons of the court.",
+    "source": "Constitution Act, 1982, s. 35. Canadian Charter of Rights and Freedoms.",
+    "url": "https://laws-lois.justice.gc.ca/eng/const/"
+  },
+  {
+    "id": "treaty8",
+    "title": "Treaty 8, 1899",
+    "tags": "treaty 8 1899 hunting fishing trapping",
+    "text": "Treaty 8 was made in 1899. A local governance code does not rewrite the treaty. Hunting, fishing, and trapping language in the treaty, and later court readings of it, sit above a band council resolution. If you are asking about a specific harvesting right, use the treaty text and the case law, not a slogan. The library holds an HTML copy of Treaty 8 from official sources.",
+    "source": "Treaty No. 8, 1899.",
+    "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028813/1581293627774"
+  },
+  {
+    "id": "undrip",
+    "title": "UNDRIP Act, S.C. 2021, c. 14",
+    "tags": "undrip declaration united nations 2021 c.14 self-determination",
+    "text": "The United Nations Declaration on the Rights of Indigenous Peoples Act, S.C. 2021, c. 14, is federal legislation requiring the Government of Canada to take measures to ensure federal laws are consistent with the Declaration. It is not a First Nation constitution by itself. It does not automatically repeal the Indian Act. Use it as a standard for federal conduct and as a model for local rights language. Do not tell a member that UNDRIP already replaced their election code.",
+    "source": "United Nations Declaration on the Rights of Indigenous Peoples Act, S.C. 2021, c. 14.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/U-2.2/"
+  },
+  {
+    "id": "self-gov-history",
+    "title": "Inherent right of self-government",
+    "tags": "inherent right self-government pre-contact kent mcneil cfng",
+    "text": "The Centre for First Nations Governance published A Brief History of Our Right to Self-Governance: Pre-Contact to Present, by Professor Kent McNeil, 2022 version. It states that Indigenous Peoples organized as sovereign nations before European contact, with jurisdiction and property rights in their territories, and that those rights were never extinguished even when they were trampled. The inherent right of self-government in Canadian law is described as coming from that pre-contact sovereignty. The public PDF is on fngovernance.org. It is a history and law primer, not a local code.",
+    "source": "Kent McNeil, A Brief History of Our Right to Self-Governance, Centre for First Nations Governance, 2022.",
+    "url": "https://fngovernance.org/wp-content/uploads/2022/08/Right-to-Self-Governance-2022_v2.pdf"
+  },
+  {
+    "id": "spending-checks",
+    "title": "Spending checks that actually work",
+    "tags": "spending threshold signature resolution self voting honoraria travel contract",
+    "text": "Weak finance rules let one person spend without a record. A working set does four things. One, a dollar cap on what one person may spend without a second signature and a council resolution on the record. Two, no self-voting on pay, honoraria, travel, or a contract that benefits that person. Three, published audited statements, a remuneration and expense schedule, and the budget, available to members. Four, a contract registry. The draft spending code on this site is a proposal. It is not in force until members adopt it. The 2014 accountability by-law is still the local written procedure until replaced.",
+    "source": "This site. Draft spending and contracts code. 2014 Council Accountability and Procedures By-law.",
+    "url": "docs/spending-and-contracts.html"
+  },
+  {
+    "id": "conflict",
+    "title": "Conflict of interest",
+    "tags": "conflict of interest recusal disclosure register self dealing pay",
+    "text": "A conflict rule that works has disclosure, recusal, and a public register. A councillor who would gain from a vote leaves the room and does not vote. Pay, honoraria, travel, housing, and contracts for that person or their immediate family are the usual recusal cases. A code with no register and no consequence is a speech, not a rule. The draft conduct code on this site proposes an Integrity Commissioner path. That draft is not in force. Until members adopt a replacement, use the 2014 accountability by-law and ordinary recusal practice, and put the recusal in the minutes.",
+    "source": "This site. Draft conduct and conflict of interest code. 2014 accountability by-law.",
+    "url": "docs/conduct.html"
+  },
+  {
+    "id": "rti",
+    "title": "Members' right to records",
+    "tags": "information access records request timeline exception privacy",
+    "text": "Members need a written right to records with a day count, not the word promptly. A working access rule names who receives the request, how many days they have to answer, the small list of records that may be withheld, and what happens if the deadline is missed. Personal information about another member is a usual exception. Budgets, audits, remuneration, contracts over a set amount, and council resolutions are usual public records. The draft access code on this site is not in force. FNFTA already gives members a statutory right to audited statements and the remuneration schedule.",
+    "source": "This site. Draft access to information code. FNFTA s. 7.",
+    "url": "docs/right-to-information.html"
+  },
+  {
+    "id": "whistle",
+    "title": "Whistleblower reporting",
+    "tags": "whistleblower reprisal reporting channel outside chain",
+    "text": "A whistleblower rule that works gives a reporting channel outside the chain of command, a ban on reprisal, and a named investigator. Reporting only to the same person who is accused is not protection. The draft whistleblower code on this site is a proposal. It is not in force. Criminal matters still go to police. Band Clerk is not a reporting channel and does not take complaints about named people.",
+    "source": "This site. Draft whistleblower protection code.",
+    "url": "docs/whistleblower.html"
+  },
+  {
+    "id": "elections-draft",
+    "title": "Election rules, in force vs draft",
+    "tags": "election 2014 customary term dates postpone off-reserve vote",
+    "text": "Until members adopt a new election code, the 2014 Customary Election Regulations are the local election rule on this file. The 2026 draft on this site is a proposal. A working election code uses a fixed election day that council cannot quietly postpone, a written term, off-reserve voting that is real, and an independent electoral officer. Do not treat the draft as the current election law. Download the 2014 PDF from this site and read it. Mark gaps in writing.",
+    "source": "2014 Customary Election Regulations. This site, documents folder. Draft election regulations, No. 05.",
+    "url": "documents/customary-election-regulations-2014.pdf"
+  },
+  {
+    "id": "action",
+    "title": "What a member can do now",
+    "tags": "action plan letter request records review process member",
+    "text": "The action plan on this site is seven practical steps. Read the 2014 source. Mark the gaps. Compare the drafts. Request the amendment record. Gather member support. Run a public process. Get independent advice. Two letter templates ask for the current rules and a public code review. Do not make personal attacks. Do not treat the drafts as law. Do not alter source documents. Do not threaten anyone. Urban members and youth are part of the membership. A process that only happens on reserve leaves people out.",
+    "source": "This site. Action plan.",
+    "url": "action-plan.html"
+  },
+  {
+    "id": "candidate",
+    "title": "Candidate commitment is a personal promise",
+    "tags": "candidate commitment pledge sign resign agreement not statute",
+    "text": "The Candidate Commitment is a personal agreement, not a statute. A candidate downloads it, reads the codes, signs it, and gives members a signed copy. If they take a seat and do not follow it, the text says they agree to resign. It is not a way to collect votes and it is not adopted law. No. 19 is the short pledge form of the same idea.",
+    "source": "This site. No. 01 Candidate Commitment. No. 19 Candidate Accountability Pledge.",
+    "url": "docs/candidate-commitment.html"
+  },
+  {
+    "id": "housing",
+    "title": "Draft housing points",
+    "tags": "housing points contribution arrears wait list overcrowding elder",
+    "text": "The published housing draft (No. 11) uses a points list and a monthly housing contribution. Points: 1 per year on the list up to 10, 5 for overcrowding, 5 for a health letter within 180 days, 5 if the applicant is not already in band housing, 3 for a child under 18 or an Elder, and minus 5 for arrears with no repayment plan. Unpaid contributions can end a tenancy after 90 days. This is a draft. It is not in force until members adopt it. Current housing practice is whatever written policy the administration actually uses today.",
+    "source": "This site. No. 11 Housing Code, 2026 draft.",
+    "url": "docs/housing.html"
+  },
+  {
+    "id": "amendment",
+    "title": "How a code should be changed",
+    "tags": "amendment member vote council resolution turnout constitution",
+    "text": "A code that council can amend by resolution alone is not a check on council. The draft amendment procedures on this site say council cannot amend by resolution. Ordinary amendments need a majority of votes cast plus a turnout floor. Constitution, bill of rights, membership, and appeals are harder to change. Those rules are proposals. They apply only if members adopt them. Until then, look at the 2014 codes for how those documents themselves say they may be changed.",
+    "source": "This site. No. 20 Amendment and Adoption Procedures. 2014 codes.",
+    "url": "docs/amendment.html"
+  },
+  {
+    "id": "criminal",
+    "title": "Criminal Code still applies",
+    "tags": "criminal code fraud theft threat assault police",
+    "text": "The Criminal Code of Canada applies on reserve. A band by-law cannot legalize fraud, theft, assault, or a threat. If the question is a crime, the answer is police and a lawyer, not Band Clerk. Band Clerk will not take a complaint about a named person and will not help accuse anyone. Structural rules are the work of this desk. Personal allegations are not.",
+    "source": "Criminal Code, R.S.C. 1985, c. C-46.",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/"
+  },
+  {
+    "id": "lawyer",
+    "title": "When you need a lawyer",
+    "tags": "lawyer review not legal advice specialist court",
+    "text": "Band Clerk is not a lawyer. Have a lawyer or governance specialist review a code before a ratification vote, a membership vote under Indian Act section 10, a switch onto the First Nations Elections Act schedule, a FAL that will be used to borrow, or any court filing. If Band Clerk does not have a passage on point, it will say so instead of guessing a section number.",
+    "source": "This site. Band Clerk.",
+    "url": "clerk.html"
+  }
+]

@@ -1,6 +1,38 @@
 
 (function () {
   var REPO = "aboriginalintelligence/aboriginalintelligence.github.io";
+  document.querySelectorAll(".mast nav").forEach(function (nav) {
+    if (nav.querySelector("[data-nav='action']")) return;
+    var home = document.querySelector(".brand a");
+    var prefix = "./";
+    if (home && home.getAttribute("href")) {
+      prefix = home.getAttribute("href").replace(/index\.html$/, "");
+    }
+    var a = document.createElement("a");
+    a.setAttribute("data-nav", "action");
+    a.href = prefix + "action-plan.html";
+    a.textContent = "Action plan";
+    var first = nav.firstElementChild;
+    if (first && first.nextSibling) nav.insertBefore(a, first.nextSibling);
+    else nav.appendChild(a);
+  });
+  document.querySelectorAll("button.copy[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var id = btn.getAttribute("data-copy");
+      var node = id ? document.getElementById(id) : null;
+      if (!node) return;
+      var text = node.innerText || node.textContent || "";
+      function done() {
+        btn.textContent = "Copied";
+        window.setTimeout(function () { btn.textContent = "Copy"; }, 1800);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function () {
+          done();
+        });
+      }
+    });
+  });
   function applyLayout() {
     var wide = window.matchMedia("(min-width: 900px)").matches;
     document.documentElement.setAttribute("data-layout", wide ? "desk" : "phone");
